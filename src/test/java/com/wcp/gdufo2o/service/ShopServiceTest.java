@@ -8,6 +8,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Date;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,12 +21,24 @@ import com.wcp.gdufo2o.entity.Area;
 import com.wcp.gdufo2o.entity.PersonInfo;
 import com.wcp.gdufo2o.entity.Shop;
 import com.wcp.gdufo2o.entity.ShopCategory;
+import com.wcp.gdufo2o.exceptions.ShopOperationException;
 @Service
 public class ShopServiceTest extends BaseTest{
 	@Autowired
     private ShopService shopService;
 	
 	@Test
+	public void testModifyShop()throws ShopOperationException, FileNotFoundException{
+		Shop shop = shopService.getByShopId(43L);
+		shop.setShopName("修改后点店铺名称1");
+		File shopImg = new File("C:\\Users\\WuChuPeng\\Pictures\\Screenshots\\屏幕截图(8).png");
+        InputStream is = new FileInputStream(shopImg);
+        ShopExecution se = shopService.modifyShop(shop,new ImageHolder(shopImg.getName(),is));
+        assertEquals(ShopStateEnum.SUCCESS.getState(), se.getState());
+	}
+	
+	@Test
+	@Ignore
     public void testAddShop() throws FileNotFoundException {
         Shop shop = new Shop();
         PersonInfo owner = new PersonInfo();

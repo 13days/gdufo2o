@@ -13,7 +13,7 @@ public interface ShopService {
      * @param pageSize
      * @return
      */
-    ShopExecution getShopList(Shop shopCondition,int pageIndex,int pageSize);
+    ShopExecution getShopList(Shop shopCondition, int pageIndex, int pageSize);
 
     /**
      * 通过店铺ID获取店铺信息
@@ -30,7 +30,7 @@ public interface ShopService {
      * @throws ShopOperationException
      */
     //ShopExecution modifyShop(Shop shop,InputStream shopImgInputStream,String fileName) throws ShopOperationException;
-    ShopExecution modifyShop(Shop shop,ImageHolder thumbnail) throws ShopOperationException;
+    ShopExecution modifyShop(Shop shop, ImageHolder thumbnail) throws ShopOperationException;
 
     /**
      * 注册店铺信息 包括图片处理

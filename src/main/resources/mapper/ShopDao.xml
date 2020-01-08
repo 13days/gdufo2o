@@ -20,8 +20,8 @@
         <result column="advice" property="advice"/>
         <!--Shop实体类中 复合类型的定义-->
         <association property="area" column="area_id" javaType="com.wcp.gdufo2o.entity.Area">
-            <id column="area_id" property="areaId"/>
-            <result column="area_name" property="areaName"/>
+        	<id column="area_id" property="areaId"/>
+        	<result column="area_name" property="areaName"/>
         </association>
         <association property="shopCategory" column="shop_category_id" javaType="com.wcp.gdufo2o.entity.ShopCategory">
             <id column="shop_category_id" property="shopCategoryId"/>
@@ -49,8 +49,10 @@
         a.area_id,
         a.area_name,
         sc.shop_category_id,
-        sc.shop_category_name
-        FROM tb_shop s,tb_area a,tb_shop_category sc
+        sc.shop_category_name,
+        p.user_id,
+        p.name
+        FROM tb_shop s,tb_area a,tb_shop_category sc,tb_person_info p
         <where>
             <if test="shopCondition.shopCategory != null and shopCondition.shopCategory.shopCategoryId != null">
                 and s.shop_category_id = #{shopCondition.shopCategory.shopCategoryId}
@@ -77,6 +79,8 @@
             s.area_id = a.area_id
             AND
             s.shop_category_id = sc.shop_category_id
+            AND
+        	s.owner_id = p.user_id
         </where>
         ORDER BY
         s.priority DESC
@@ -85,7 +89,7 @@
     <!--获取总数-->
     <select id="queryShopCount" resultType="int">
         SELECT count(1) FROM
-        tb_shop s,tb_area a,tb_shop_category sc
+        tb_shop s,tb_area a,tb_shop_category sc,tb_person_info p
         <where>
             <if test="shopCondition.shopCategory != null and shopCondition.shopCategory.shopCategoryId != null">
                 and s.shop_category_id = #{shopCondition.shopCategory.shopCategoryId}
@@ -112,6 +116,8 @@
             s.area_id = a.area_id
             AND
             s.shop_category_id = sc.shop_category_id
+            AND
+        	s.owner_id = p.user_id
         </where>
     </select>
 
@@ -131,12 +137,16 @@
         a.area_id,
         a.area_name,
         sc.shop_category_id,
-        sc.shop_category_name
-        FROM tb_shop s,tb_area a,tb_shop_category sc
+        sc.shop_category_name,
+        p.user_id,
+        p.name
+        FROM tb_shop s,tb_area a,tb_shop_category sc,tb_person_info p
         WHERE
         s.area_id = a.area_id
         AND
         s.shop_category_id = sc.shop_category_id
+        AND
+        s.owner_id = p.user_id
         AND
         s.shop_id = #{shopId}
     </select>
@@ -164,6 +174,7 @@
             <if test="priority != null">priority=#{priority},</if>
             <if test="lastEditTime != null">last_edit_time=#{lastEditTime},</if>
             <if test="enableStatus != null">enable_status=#{enableStatus},</if>
+            <if test="advice !=null">advice=#{advice},</if>
             <if test="area != null">area_id=#{area.areaId},</if>
             <if test="shopCategory != null">shop_category_id=#{shopCategory.shopCategoryId}</if>
         </set>

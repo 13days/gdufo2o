@@ -1,4 +1,4 @@
-package com.wcp.gdufo2o.enmus;
+	package com.wcp.gdufo2o.enmus;
 
 /**
  * 店铺状态枚举类

@@ -51,8 +51,8 @@ public class ShopServiceImpl implements ShopService{
 	        } else {
 	            try {
 	                //1、判断是否需要处理图片
-	                if (thumbnail.getImage() != null && thumbnail.getImageName() != null && !"".equals(thumbnail.getImageName())) {
-	                    Shop themShop = shopDao.queryByShopId(shop.getShopId());
+	                if (thumbnail!=null && thumbnail.getImage() != null && thumbnail.getImageName() != null && !"".equals(thumbnail.getImageName())) {            
+	                	Shop themShop = shopDao.queryByShopId(shop.getShopId());
 	                    if (themShop.getShopImg() != null) {
 	                        //删除原有图片
 	                        ImageUtil.deleteFileOrPath(themShop.getShopImg());
@@ -60,7 +60,7 @@ public class ShopServiceImpl implements ShopService{
 	                    //添加新图片
 	                    addShopImg(shop, thumbnail);
 	                }
-
+	                
 	                //2、更新店铺信息
 	                shop.setLastEditTime(new Date());
 	                int effectedNum = shopDao.updateShop(shop);
