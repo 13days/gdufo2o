@@ -8,10 +8,10 @@ $(function () {
     var pageSize = 3;
 
     //获取店铺列表的URL
-    var listUrl = '/o2o/frontend/listshops';
+    var listUrl = '/gdufo2o/frontend/listshops';
 
     //获取店铺类别列表以及区域列表的URL
-    var searchDivUrl = '/o2o/frontend/listshopspageinfo';
+    var searchDivUrl = '/gdufo2o/frontend/listshopspageinfo';
 
     //页码
     var pageNum = 1;
@@ -133,7 +133,7 @@ $(function () {
     //点击店铺的卡片进入该店铺的详情页
     $('.shop-list').on('click', '.card', function (e) {
         var shopId = e.currentTarget.dataset.shopId;
-        window.location.href = '/o2o/frontend/shopdetail?shopId=' + shopId;
+        window.location.href = '/gdufo2o/frontend/shopdetail?shopId=' + shopId;
     });
 
     //选择新的店铺类别之后，重置页码，清空原先的店铺列表，按照新的类别去查询

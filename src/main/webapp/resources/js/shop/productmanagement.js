@@ -1,8 +1,8 @@
 $(function () {
     //获取此店铺下的商品列表的URL
-    var listUrl = '/o2o/shopadmin/getproductlistbyshop?pageIndex=1&&pageSize=999';
+    var listUrl = '/gdufo2o/shopadmin/getproductlistbyshop?pageIndex=1&&pageSize=999';
     //商品下架URL
-    var statusUrl = '/o2o/shopadmin/modifyproduct';
+    var statusUrl = '/gdufo2o/shopadmin/modifyproduct';
     getList();
 
     /**
@@ -69,14 +69,14 @@ $(function () {
        var target = $(e.currentTarget);
        if(target.hasClass('edit')){
            //如果有class edit则点击就进入店铺信息编辑页面，并带有productId参数
-           window.location.href = '/o2o/shopadmin/productoperation?productId='
+           window.location.href = '/gdufo2o/shopadmin/productoperation?productId='
            +e.currentTarget.dataset.id;
        }else if(target.hasClass('status')){
            //如果有class status 则调用后台功能上/下架相关商品，并带有productId参数
            changeItemStatus(e.currentTarget.dataset.id,e.currentTarget.dataset.status);
        }else if(target.hasClass('preview')){
            //如果有class preview则去前台展示系统展示该商品详情页预览商品情况
-           window.location.href = '/o2o/shopadmin/productdetail?productId='
+           window.location.href = '/gdufo2o/shopadmin/productdetail?productId='
            +e.currentTarget.dataset.id;
        }
     });

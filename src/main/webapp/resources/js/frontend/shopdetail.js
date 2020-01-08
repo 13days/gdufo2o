@@ -5,7 +5,7 @@ $(function () {
     //默认一页返回的商品数
     var pageSize = 10;
     //列出商品列表URL
-    var listUrl = '/o2o/frontend/listproductsbyshop';
+    var listUrl = '/gdufo2o/frontend/listproductsbyshop';
     //默认的页码
     var pageNum = 1;
     //从地址栏里获取ShopId
@@ -13,14 +13,14 @@ $(function () {
     var productCategoryId = '';
     var productName = '';
     //获取本店铺信息以及商品类别信息列表的URL
-    var searchDivUrl = '/o2o/frontend/listshopdetailpageinfo?shopId='+shopId;
+    var searchDivUrl = '/gdufo2o/frontend/listshopdetailpageinfo?shopId='+shopId;
     //渲染出店铺基本信息以及商品类别列表以供搜索
     getSearchDivData();
     //预先加载10条商品信息
     addItems(pageSize, pageNum);
 
     //给兑换礼品的a标签赋值兑换礼品的URL,2.0 TODO
-    $('#exchangelist').attr('href', '/o2o/frontend/awardlist?shopId=' + shopId);
+    $('#exchangelist').attr('href', '/gdufo2o/frontend/awardlist?shopId=' + shopId);
 
     //获取本店铺信息以及商品类别信息列表
     function getSearchDivData() {
@@ -140,7 +140,7 @@ $(function () {
     //点击卡片进入商品详情页
     $('.list-div').on('click','.card', function (e) {
         var productId = e.currentTarget.dataset.productId;
-        window.location.href = '/o2o/frontend/productdetail?productId='
+        window.location.href = '/gdufo2o/frontend/productdetail?productId='
             + productId;
     });
 

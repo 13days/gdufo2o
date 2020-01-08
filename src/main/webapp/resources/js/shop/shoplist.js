@@ -2,7 +2,7 @@
 $(function () {
     function getlist(e) {
         $.ajax({
-            url: "/o2o/shop/getshoplist",
+            url: "/gdufo2o/shop/getshoplist",
             type: "get",
             dataType: "json",
             success: function (data) {
@@ -44,7 +44,7 @@ $(function () {
 
     function goShop(status, id) {
         if (status == 1) {
-            return '<a href="/o2o/shopadmin/shopmanagement?shopId=' + id + '">进入</a>';
+            return '<a href="/gdufo2o/shopadmin/shopmanagement?shopId=' + id + '">进入</a>';
         } else {
             return '';
         }

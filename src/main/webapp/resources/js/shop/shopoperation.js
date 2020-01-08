@@ -6,10 +6,10 @@ JS主要负责两个功能
 $(function () {
     var shopId = getQueryString('shopId');
     var isEdit = shopId ? true : false;  //如果是true 则是修改店铺信息 如果是false 则是注册店铺（前端页面复用）
-    var initUrl = '/o2o/shop/getshopinitinfo'; //后台传递数据给前台
-    var registerShopUrl = '/o2o/shop/registershop';    //前台把填写的数据获取到后台
-    var shopInfoUrl = '/o2o/shop/getshopbyid?shopId=' + shopId;
-    var editShopUrl = '/o2o/shop/modifyshop';
+    var initUrl = '/gdufo2o/shop/getshopinitinfo'; //后台传递数据给前台
+    var registerShopUrl = '/gdufo2o/shop/registershop';    //前台把填写的数据获取到后台
+    var shopInfoUrl = '/gdufo2o/shop/getshopbyid?shopId=' + shopId;
+    var editShopUrl = '/guufo2o/shop/modifyshop';
 
     //alert(initUrl);  //Test
     // getShopInitInfo();
@@ -107,20 +107,31 @@ $(function () {
         formData.append('verifyCodeActual', verifyCodeActual);
 
         $.ajax({
-            url: (isEdit ? editShopUrl : registerShopUrl),
-            // url:registerShopUrl,
+            // url: (isEdit ? editShopUrl : registerShopUrl),
+            url:registerShopUrl,
             type: 'POST',
             data: formData,
-            contentType: false,
+            contentType: false, // 文件+文字
             processData: false,
             cache: false,
             success: function (data) {
+            	console.log(data)
+            	alert("提交过了")
                 if (data.success) {
                     $.toast('提交成功！');
                 } else {
                     $.toast('提交失败！' + data.errMsg);
-                    $('#captcha_img').click();
                 }
+                $('#captcha_img').click();
+            },
+            error: function (data) {
+            	console.log(data)
+                if (data.success) {
+                    $.toast('提交成功！');
+                } else {
+                    $.toast('提交失败！' + data.errMsg);
+                }
+                $('#captcha_img').click();
             }
         });
     });

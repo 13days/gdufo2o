@@ -1,9 +1,9 @@
 $(function () {
 
     //后台从session中获取shop的信息，这里不传shopId
-    var listUrl = '/o2o/shopadmin/getproductcategorylist';
-    var addUrl = '/o2o/shopadmin/addproductcategorys';
-    var deleteUrl = '/o2o/shopadmin/removeproductcategory';
+    var listUrl = '/gdufo2o/shopadmin/getproductcategorylist';
+    var addUrl = '/gdufo2o/shopadmin/addproductcategorys';
+    var deleteUrl = '/gdufo2o/shopadmin/removeproductcategory';
 
     // 调用getProductCategoryList，加载数据
     getProductCategoryList();

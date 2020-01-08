@@ -1,6 +1,6 @@
 $(function () {
     //登录验证的Controller url
-    var loginUrl = '/o2o/local/logincheck';
+    var loginUrl = '/gdufo2o/local/logincheck';
     //从地址栏url里面获取usertype
     //usertype=1为用户，其余的为店铺所有者
     var usertype = getQueryString('usertype');
@@ -45,10 +45,10 @@ $(function () {
                     $.toast('登陆成功!');
                     if(usertype == 1){
                         //若用户在前端展示系统页面则自动退回到前端展示系统首页
-                        window.location.href='/o2o/frontend/index';
+                        window.location.href='/gdufo2o/frontend/index';
                     }else {
                         //若用户是在店家管理系统页面则自动回退到店铺列表页面中
-                        window.location.href='/o2o/shopadmin/shoplist';
+                        window.location.href='/gdufo2o/shopadmin/shoplist';
                     }
                 }else {
                     $.toast('登陆失败!--'+data.errMsg);
