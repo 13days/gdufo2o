@@ -3,6 +3,7 @@ package com.wcp.gdufo2o.dao;
 import static org.junit.Assert.assertEquals;
 
 import java.util.Date;
+import java.util.List;
 
 import org.junit.Ignore;
 import org.junit.Test;
@@ -46,6 +47,7 @@ public class ShopDaoTest extends BaseTest{
 	
 	
 	@Test
+	@Ignore
 	public void testUpdateShop() {
 		Shop shop = new Shop();
 		shop.setShopId(29L);
@@ -66,5 +68,22 @@ public class ShopDaoTest extends BaseTest{
 		System.out.println(shop.getArea().getAreaName());
 		System.out.println(shop.getShopCategory().getShopCategoryName());
 		System.out.println(shop.getOwner().getName());
+	}
+
+
+	@Test
+	@Ignore
+	public void testQueryShopList(){
+		Shop shopCondition = new Shop();
+		PersonInfo owner = new PersonInfo();
+		owner.setUserId(12L);
+		shopCondition.setOwner(owner);
+		List<Shop> shops = shopDao.queryShopList(shopCondition, 1, 5);
+		for(Shop shop : shops){
+			System.out.println(shop.getPriority());
+		}
+
+		int count = shopDao.queryShopCount(shopCondition);
+		System.out.println("店铺总数:"+count);
 	}
 }

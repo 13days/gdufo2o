@@ -5,7 +5,7 @@ import java.util.List;
 import com.wcp.gdufo2o.enmus.ShopStateEnum;
 import com.wcp.gdufo2o.entity.Shop;
 
-public class ShopExecution {
+public class    ShopExecution {
 	// 结果状态
 	private int state;
 	
@@ -32,14 +32,14 @@ public class ShopExecution {
         this.stateInfo = stateEnum.getStateInfo();
     }
 
-    //店铺操作成功使用的构造器(单个)
+    // 店铺操作成功使用的构造器(单个)
     public ShopExecution(ShopStateEnum stateEnum,Shop shop) {
         this.state = stateEnum.getState();
         this.stateInfo = stateEnum.getStateInfo();
         this.shop = shop;
     }
 
-    //店铺操作成功使用的构造器（列表）
+    // 店铺操作成功使用的构造器（列表）
     public ShopExecution(ShopStateEnum stateEnum,List<Shop> shopList) {
         this.state = stateEnum.getState();
         this.stateInfo = stateEnum.getStateInfo();

@@ -12,7 +12,7 @@ import com.wcp.gdufo2o.service.ShopCategoryService;
 @Service
 public class ShopCategoryServiceImpl implements ShopCategoryService{
 	@Autowired
-	ShopCategoryDao shopCategoryDao;
+	private ShopCategoryDao shopCategoryDao;
 	@Override
 	public List<ShopCategory> getShopCategoryList(ShopCategory shopCategoryCondition) {
 		return shopCategoryDao.queryShopCategory(shopCategoryCondition);

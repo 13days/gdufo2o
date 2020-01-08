@@ -28,6 +28,7 @@ public class ShopServiceTest extends BaseTest{
     private ShopService shopService;
 	
 	@Test
+    @Ignore
 	public void testModifyShop()throws ShopOperationException, FileNotFoundException{
 		Shop shop = shopService.getByShopId(43L);
 		shop.setShopName("修改后点店铺名称1");
@@ -61,5 +62,17 @@ public class ShopServiceTest extends BaseTest{
         InputStream is = new FileInputStream(shopImg);
         ShopExecution se = shopService.addShop(shop,new ImageHolder(shopImg.getName(),is));
         assertEquals(ShopStateEnum.CHECK.getState(), se.getState());
+    }
+
+    @Test
+    @Ignore
+    public void testGetShopList(){
+	    Shop shopCondition = new Shop();
+	    ShopCategory sc = new ShopCategory();
+	    sc.setShopCategoryId(11L);
+	    shopCondition.setShopCategory(sc);
+        ShopExecution shopList = shopService.getShopList(shopCondition, 3, 3);
+        System.out.println("店铺列表总数:"+shopList.getShopList().size());
+        System.out.println("店铺总数:"+shopList.getCount());
     }
 }

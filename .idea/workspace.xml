@@ -2,11 +2,54 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="gdufo2o:war" />
+      <artifact name="gdufo2o" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b3c6b12-c7b4-4fab-af12-fbd3130bd4b1" name="Default Changelist" comment="" />
+    <list default="true" id="0b3c6b12-c7b4-4fab-af12-fbd3130bd4b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dao/ProductCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ProductCategoryExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/enmus/ProductCategoryStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ProductCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ProductCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/PageCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductCategoryManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ProductCategoryDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ProductCategoryServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ShopExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ShopExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/shop/productcategorymanagement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/shop/productmanagement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/shop/productoperation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/shop/shoplist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/shop/shopmanagement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/shop/shopoperation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopmanagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopmanagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ShopDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ShopDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ShopServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ShopServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/service/impl/ShopCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/service/impl/ShopCategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/service/impl/ShopServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/service/impl/ShopServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/service/impl/ShopServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/service/impl/ShopServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/html/shop/productcategorymanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/html/shop/productcategorymanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/html/shop/shoplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/html/shop/shoplist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/html/shop/shopmanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/html/shop/shopmanagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/resources/js/shop/shopmanagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/resources/js/shop/shopmanagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wcp/gdufo2o/dao/ShopDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wcp/gdufo2o/dao/ShopDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wcp/gdufo2o/service/ShopServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wcp/gdufo2o/service/ShopServiceTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,27 +61,166 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gdufo2o" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ImageHolder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ProductCategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="436">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/AreaServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ProductCategoryExecution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ShopExecution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductCategoryManagementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="319">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1922#1938#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopCategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ProductCategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+              <folding>
+                <element signature="method#getShopById#0;class#ShopManagementController#0" />
+                <element signature="method#getShopInitInfo#0;class#ShopManagementController#0" />
+                <element signature="method#registerShop#0;class#ShopManagementController#0" />
+                <element signature="method#modifyShop#0;class#ShopManagementController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ProductCategoryServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="95" lean-forward="true" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/o2o/</find>
+      <find>e</find>
+      <find>currentShop</find>
+      <find>setAtt</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/gdufo2o/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ShopDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/PageCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ShopExecution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ShopServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ShopAdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopmanagement.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shoplist.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanagement.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanagement.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dao/ProductCategoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ProductCategoryDao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ProductCategoryDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ProductCategroyServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/enmus/ProductCategoryStateEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ProductCategoryExecution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductCategoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ProductCategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ProductCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ProductCategoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductCategoryManagementController.java" />
+      </list>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -53,6 +235,7 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -109,8 +292,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="split" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
@@ -119,7 +301,88 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="enmus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="shopadmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="superadmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
@@ -132,6 +395,69 @@
               <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
               <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,6 +484,15 @@
               <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,13 +500,27 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wcp.gdufo2o.dto" />
+      <recent name="com.wcp.gdufo2o.exceptions" />
+      <recent name="com.wcp.gdufo2o.enmus" />
+      <recent name="com.wcp.gdufo2o.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WuChuPeng\data_for_wuchupeng\git_project_for_java\gdufo2o\src\main\resources\mapper" />
+      <recent name="C:\Users\WuChuPeng\data_for_wuchupeng\git_project_for_java\gdufo2o\src\main\webapp\resources\js\shop" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,7 +535,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.gdufo2o">
-    <configuration name="AreaDaoTest.testQueryArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductCategoryDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gdufo2o" />
       <extension name="coverage">
         <pattern>
@@ -195,8 +544,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wcp.gdufo2o.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.wcp.gdufo2o.dao.AreaDaoTest" />
-      <option name="METHOD_NAME" value="testQueryArea" />
+      <option name="MAIN_CLASS_NAME" value="com.wcp.gdufo2o.dao.ProductCategoryDaoTest" />
+      <option name="METHOD_NAME" value="testBatchInsertProductCategory" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCategoryDaoTest.testBatchInsertProductCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gdufo2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wcp.gdufo2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wcp.gdufo2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.wcp.gdufo2o.dao.ProductCategoryDaoTest" />
+      <option name="METHOD_NAME" value="testBatchInsertProductCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCategoryDaoTest.testDeleteProductCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gdufo2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wcp.gdufo2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wcp.gdufo2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.wcp.gdufo2o.dao.ProductCategoryDaoTest" />
+      <option name="METHOD_NAME" value="testDeleteProductCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCategoryDaoTest.testQueryProductCategoryList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gdufo2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wcp.gdufo2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wcp.gdufo2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.wcp.gdufo2o.dao.ProductCategoryDaoTest" />
+      <option name="METHOD_NAME" value="testQueryProductCategoryList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCategroyServiceTest.testGetShopCategoryList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gdufo2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wcp.gdufo2o.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wcp.gdufo2o.service" />
+      <option name="MAIN_CLASS_NAME" value="com.wcp.gdufo2o.service.ProductCategroyServiceTest" />
+      <option name="METHOD_NAME" value="testGetShopCategoryList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,12 +694,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AreaDaoTest.testQueryArea" />
       <item itemvalue="Tomcat Server.gdufo2o" />
+      <item itemvalue="JUnit.ProductCategoryDaoTest.testBatchInsertProductCategory" />
+      <item itemvalue="JUnit.ProductCategoryDaoTest" />
+      <item itemvalue="JUnit.ProductCategoryDaoTest.testQueryProductCategoryList" />
+      <item itemvalue="JUnit.ProductCategoryDaoTest.testDeleteProductCategory" />
+      <item itemvalue="JUnit.ProductCategroyServiceTest.testGetShopCategoryList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AreaDaoTest.testQueryArea" />
+        <item itemvalue="JUnit.ProductCategroyServiceTest.testGetShopCategoryList" />
+        <item itemvalue="JUnit.ProductCategoryDaoTest.testDeleteProductCategory" />
+        <item itemvalue="JUnit.ProductCategoryDaoTest.testQueryProductCategoryList" />
+        <item itemvalue="JUnit.ProductCategoryDaoTest" />
+        <item itemvalue="JUnit.ProductCategoryDaoTest.testBatchInsertProductCategory" />
       </list>
     </recent_temporary>
   </component>
@@ -300,17 +721,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578474211570</updated>
-      <workItem from="1578474213882" duration="1021000" />
+      <workItem from="1578474213882" duration="18014000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AreaDaoTest_testQueryArea - 2020.01.08 at 17h 05m 59s.xml">
-      <configuration name="AreaDaoTest.testQueryArea" configurationId="JUnit" />
+    <history-entry file="ShopServiceTest_testGetShopList - 2020.01.08 at 19h 02m 46s.xml">
+      <configuration name="ShopServiceTest.testGetShopList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopServiceTest_testGetShopList - 2020.01.08 at 19h 03m 34s.xml">
+      <configuration name="ShopServiceTest.testGetShopList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductCategoryDaoTest_testBatchInsertProductCategory - 2020.01.08 at 22h 00m 32s.xml">
+      <configuration name="ProductCategoryDaoTest.testBatchInsertProductCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductCategoryDaoTest - 2020.01.08 at 22h 01m 33s.xml">
+      <configuration name="ProductCategoryDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductCategoryDaoTest_testQueryProductCategoryList - 2020.01.08 at 22h 10m 08s.xml">
+      <configuration name="ProductCategoryDaoTest.testQueryProductCategoryList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductCategoryDaoTest_testQueryProductCategoryList - 2020.01.08 at 22h 11m 04s.xml">
+      <configuration name="ProductCategoryDaoTest.testQueryProductCategoryList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductCategoryDaoTest_testQueryProductCategoryList - 2020.01.08 at 22h 11m 44s.xml">
+      <configuration name="ProductCategoryDaoTest.testQueryProductCategoryList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductCategoryDaoTest_testQueryProductCategoryList - 2020.01.08 at 22h 12m 21s.xml">
+      <configuration name="ProductCategoryDaoTest.testQueryProductCategoryList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductCategoryDaoTest_testDeleteProductCategory - 2020.01.08 at 22h 14m 53s.xml">
+      <configuration name="ProductCategoryDaoTest.testDeleteProductCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProductCategroyServiceTest_testGetShopCategoryList - 2020.01.08 at 22h 17m 13s.xml">
+      <configuration name="ProductCategroyServiceTest.testGetShopCategoryList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1021000" />
+    <option name="totallyTimeSpent" value="18014000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -320,26 +777,26 @@
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" sideWeight="0.10502958" side_tool="true" weight="0.14075068" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8949704" visible="true" weight="0.32372653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" weight="0.32956153" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.09348442" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.65770864" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14164306" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.04249292" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -350,9 +807,56 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.10502958" side_tool="true" visible="true" weight="0.14075068" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.8949704" visible="true" weight="0.14075068" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.41359773" />
+      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductCategoryManagementController.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
@@ -375,10 +879,298 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dao/ShopDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ShopDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="84" column="16" lean-forward="true" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/PageCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/enmus/ShopStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ShopExecution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="368">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ShopServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/shop/shopmanagement.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/common/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="148" column="50" selection-start-line="148" selection-start-column="50" selection-end-line="148" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopmanagement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/shoplist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ShopAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanagement.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanagement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanagement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productmanagement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ProductCategoryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dao/ProductCategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ProductCategoryDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ShopCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/enmus/ProductCategoryStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ProductCategoryExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/AreaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ProductCategoryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="95" lean-forward="true" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <folding>
+            <element signature="method#getShopById#0;class#ShopManagementController#0" />
+            <element signature="method#getShopInitInfo#0;class#ShopManagementController#0" />
+            <element signature="method#registerShop#0;class#ShopManagementController#0" />
+            <element signature="method#modifyShop#0;class#ShopManagementController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ProductCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ProductCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductCategoryManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1922#1938#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -46,6 +46,64 @@ public class ShopManagementController {
 	
 	@Autowired
     private AreaService areaService;
+
+    // 店铺管理相关页面 以及管理session相关的一些操作 查看是否具备url里是否有shopId或者session里是否存在
+    // 否则返回重定向url
+    @RequestMapping(value = "/getshopmanagementinfo", method = RequestMethod.GET)
+    @ResponseBody
+    private Map<String, Object> getShopManagementInfo(HttpServletRequest request) {
+        Map<String, Object> modelMap = new HashMap<String, Object>();
+        //从前端传过来的参数中获取ID
+        long shopId = HttpServletRequestUtil.getLong(request, "shopId");
+        if (shopId <= 0) {
+            //如果没有从前端拿到 那就试着从session中拿
+            Object currentShopObj = request.getSession().getAttribute("currentShop");
+            //还是拿不到 那就重定向回shoplist
+            if (currentShopObj == null) {
+                modelMap.put("redirect", true);
+                modelMap.put("url", "shoplist"); // 初始路径: gdufo2o/shopadmin/shoplist
+            } else {
+                Shop currentShop = (Shop)currentShopObj;
+                modelMap.put("redirect", false);
+                modelMap.put("shopId", currentShop.getShopId());
+            }
+        } else {
+            // 路由到具体某个店铺的管理的时候把session设置上
+            Shop currentShop = new Shop();
+            currentShop.setShopId(shopId);
+            request.getSession().setAttribute("currentShop", currentShop);
+            modelMap.put("redirect", false);
+        }
+//        modelMap.put("redirect", true);
+//        modelMap.put("url", "shoplist");
+        return modelMap;
+    }
+
+	// 获取店铺列表
+    @RequestMapping(value = "/getshoplist", method = RequestMethod.GET)
+    @ResponseBody
+	private Map<String, Object> getShopList(HttpServletRequest request){
+	    Map<String, Object> modelMap = new HashMap<>();
+	    PersonInfo user = new PersonInfo();
+	    user.setUserId(12L);
+	    user.setName("吴楚鹏");
+
+	    request.getSession().setAttribute("user", user);
+        user = (PersonInfo)request.getSession().getAttribute("user");
+	    try {
+	        Shop shopCondition = new Shop();
+	        shopCondition.setOwner(user);
+            ShopExecution se = shopService.getShopList(shopCondition, 0, 100);
+            modelMap.put("shopList", se.getShopList());
+            modelMap.put("user", user);
+            modelMap.put("shopCount", se.getCount());
+            modelMap.put("success", true);
+        }catch (Exception e){
+	        modelMap.put("success", false);
+	        modelMap.put("errMsg", e.getMessage());
+        }
+	    return modelMap;
+    }
 	
 	// 获取店铺信息并展示到前端供方法修改
     @RequestMapping(value = "/getshopbyid", method = RequestMethod.GET)
