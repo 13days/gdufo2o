@@ -115,8 +115,6 @@ $(function () {
             processData: false,
             cache: false,
             success: function (data) {
-            	console.log(data)
-            	alert("提交过了")
                 if (data.success) {
                     $.toast('提交成功！');
                 } else {
@@ -124,15 +122,6 @@ $(function () {
                 }
                 $('#captcha_img').click();
             },
-            error: function (data) {
-            	console.log(data)
-                if (data.success) {
-                    $.toast('提交成功！');
-                } else {
-                    $.toast('提交失败！' + data.errMsg);
-                }
-                $('#captcha_img').click();
-            }
         });
     });
 

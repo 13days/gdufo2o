@@ -29,6 +29,53 @@
         <!--当获取连接失败次数-->
         <property name="acquireRetryAttempts" value="2"/>
     </bean>
+    
+    <!-- 主从库配置 -->
+    <!--
+     <bean id="abstractdataSource" abstract="true" 
+     	class="com.mchange.v2.c3p0.ComboPooledDataSource" dstory-method="close">
+        <!--C3P0连接池的私有属性-->
+        <property name="maxPoolSize" value="30"/>
+        <property name="minPoolSize" value="10"/>
+        <!--关闭连接后不自动commit（默认是false）-->
+        <property name="autoCommitOnClose" value="false"/>
+        <!--获取连接 超时时间-->
+        <property name="checkoutTimeout" value="10000"/>
+        <!--当获取连接失败次数-->
+        <property name="acquireRetryAttempts" value="2"/>
+    </bean>
+     <bean id="master" parent="abstractdataSource">
+        <!--配置连接池属性-->
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.master.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+     <bean id="slave" parent="abstractdataSource">
+        <!--配置连接池属性-->
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.slave.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+    -->
+    <!-- 配置动态数据源,这儿targetDataSources就是路由数据源所对应的名称 -->
+    <!--
+    <bean id="dynamicDataSource" class="com.wcp.gdufo2o.dao.split.DynamicDataSource">
+    	<propery name="targetDataSources">
+    		<map>
+    			<entry value-ref="master" key="master"></entry>
+    			<entry value-ref="slave" key="slave"></entry>
+    		</map>
+    	</propery>
+    </bean>
+    <bean id="dataSource" 
+    	class="org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy">
+    	<property name="targetDataSource">
+    		<ref bean="dynamicDataSource"/>
+    	</property>
+    </bean>
+     -->
 
     <!--约定大于配置-->
     <!--3：配SqlsessionFactory对象-->
