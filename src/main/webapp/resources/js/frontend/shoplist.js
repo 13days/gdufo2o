@@ -46,10 +46,8 @@ $(function () {
                         + item.shopCategoryName
                         + '</a>';
                 });
-
-                // 广金区域
                 $('#shoplist-search-div').html(html);
-                var selectOptions = '<option value="">所属院系</option>';
+                var selectOptions = '<option value="">所属区域</option>';
                 var areaList = data.areaList;
                 areaList.map(function (item, index) {
                     selectOptions += '<option value="'
@@ -80,6 +78,7 @@ $(function () {
                 maxItems = data.count;
                 var html = '';
                 //遍历店铺列表，拼接出卡片集合
+                //shopList 后台写错了 还没改 前台要和后台一致
                 data.shopList.map(function(item,index){
                     html += '' + '<div class="card" data-shop-id="'
                         + item.shopId + '">' + '<div class="card-header">'
@@ -131,7 +130,7 @@ $(function () {
         addItems(pageSize, pageNum);
     });
 
-    // 点击店铺的卡片进入该店铺的详情页
+    //点击店铺的卡片进入该店铺的详情页
     // 由后端进行分发路由,带着shopId
     $('.shop-list').on('click', '.card', function (e) {
         var shopId = e.currentTarget.dataset.shopId;

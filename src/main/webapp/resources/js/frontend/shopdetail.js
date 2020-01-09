@@ -32,8 +32,8 @@ $(function () {
                 $('#shop-update-time').html(new Date(shop.lastEditTime).Format("yyyy-MM-dd"));
                 $('#shop-name').html(shop.shopName);
                 $('#shop-desc').html(shop.shopDesc);
-                $('#shop-addr').html(shop.shopAddr);
-                $('#shop-phone').html(shop.phone);
+                $('#shop-addr').html('地址:'+shop.shopAddr);
+                $('#shop-phone').html('联系电话:'+shop.phone);
                 //获取后台返回的该店铺的商品类别列表
                 var productCategoryList = data.productCategoryList;
                 var html = '';
