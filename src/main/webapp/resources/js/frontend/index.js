@@ -20,6 +20,7 @@ $(function () {
             //设定轮播图轮换时间为3秒
             $(".swiper-container").swiper({
                 autoplay:3000,
+                // 鼠标放上去轮播图继续懂
                 autoplayDisableOnInteraction:false
             });
 
@@ -49,9 +50,12 @@ $(function () {
         $.openPanel('#panel-left-demo');
     });
 
+    // 第二个参数是class
+    // 类别按钮,url到后端控制器一定要带上父级类别id
     $('.row').on('click','.shop-classify',function (e) {
         var shopCategoryId = e.currentTarget.dataset.category;
-        var newUrl = '/gdufo2o/frontend/shoplist?parentId = '+shopCategoryId;
+        // 重定向到后台再反会html页面
+        var newUrl = '/gdufo2o/frontend/shoplist?parentId='+shopCategoryId;
         window.location.href = newUrl;
     });
 

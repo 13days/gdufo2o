@@ -31,7 +31,7 @@ public class ImageUtil {
     private static final Random r = new Random();
 
     /**
-         * 处理缩略图，并返回新生成图片的相对路径
+     * 处理缩略图，并返回新生成图片的相对路径
      * @param
      * @param targetAddr
      * @return
@@ -63,7 +63,7 @@ public class ImageUtil {
     }
 
     /**
-         * 处理详情图，并返回新生成图片的相对路径值
+     * 处理详情图，并返回新生成图片的相对路径值
      * @param thumbanil
      * @param targetAddr
      * @return
@@ -96,7 +96,7 @@ public class ImageUtil {
 
 
     /**
-         * 创建目标函数所涉及到的目录，即/home/work/zdy/xxx.jpg,那么home work zdy这三个文件夹都要自动创建出来
+     * 创建目标函数所涉及到的目录，即/home/work/zdy/xxx.jpg,那么home work zdy这三个文件夹都要自动创建出来
      * @param targetAddr
      */
     private static void makeDirPath(String targetAddr) {
@@ -117,7 +117,7 @@ public class ImageUtil {
     }
 
     /**
-         * 生成随机文件名  当前年月日小时分钟秒钟+五位随机数
+     * 生成随机文件名  当前年月日小时分钟秒钟+五位随机数
      * @return
      */
     public static String getRandomFileName() {
@@ -130,8 +130,8 @@ public class ImageUtil {
 
     /**
      * storePath可以是文件的路径，也可以是目录的路径
-         * 如果storePath是文件路径则删除该文件
-         * 如果storePath是文件目录则删除该目录
+     * 如果storePath是文件路径则删除该文件
+     * 如果storePath是文件目录则删除该目录
      * @param storePath
      */
     public static void deleteFileOrPath(String storePath) {

@@ -12,8 +12,11 @@ $(function () {
         $.getJSON(listUrl, function (data) {
             if (data.success) {
                 var dataList = data.data;
-                $('.product-categroy-wrap').html('');
+                // 重置为空
+                $('.product-category-wrap').html('');
                 var tempHtml = '';
+
+                // 原来的class都是now
                 dataList.map(function (item, index) {
                     tempHtml += ''
                         + '<div class="row row-product-category now">'
@@ -36,6 +39,7 @@ $(function () {
 
     //定义新增按钮事件  每点击一次都会出现一个新的div
     $('#new').click(function () {
+        // 通过新增生产的clss都是temp
         var tempHtml = '<div class="row row-product-category temp">'
             + '<div class="col-33"><input class="category-input category" type="text" placeholder="分类名"></div>'
             + '<div class="col-33"><input class="category-input priority" type="number" placeholder="优先级"></div>'
@@ -68,11 +72,11 @@ $(function () {
             contentType:'application/json',
             success:function (data) {
                 if(data.success){
-                    $.toast('新增信息成功');
                     //重新加载数据
                     getProductCategoryList();
                     //调用上面方法之后刷新此页面
                     location.reload()
+                    $.toast('新增信息成功');
                 }else{
                     $.toast('提交失败--'+data.errMsg);
                 }
@@ -81,6 +85,7 @@ $(function () {
     });
 
 
+    // on 函数, 动态添加的时候也可以杯触发
     // 一种是需要提交到后台的删除now  ，另外一种是新增但未提交到数据库中的删除temp
     //temp
     $('.product-category-wrap').on('click','.row-product-category.temp .delete',function (e) {

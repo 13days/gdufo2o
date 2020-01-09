@@ -1,6 +1,7 @@
 package com.wcp.gdufo2o.service.impl;
 
 import com.wcp.gdufo2o.dao.ProductCategoryDao;
+import com.wcp.gdufo2o.dao.ProductDao;
 import com.wcp.gdufo2o.dto.ProductCategoryExecution;
 import com.wcp.gdufo2o.enmus.ProductCategoryStateEnum;
 import com.wcp.gdufo2o.entity.ProductCategory;
@@ -16,6 +17,9 @@ import java.util.List;
 public class ProductCategoryServiceImpl implements ProductCategoryService {
     @Autowired
     private ProductCategoryDao productCategoryDao;
+
+    @Autowired
+    private ProductDao productDao;
 
     @Override
     public List<ProductCategory> getProductCategoryList(long shopId) {
@@ -50,14 +54,14 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
             throws ProductCategoryOperationException {
         //TODO 将此商品类别下的商品类别Id置为空
         //接触tb_product里的商品与该productCategoryId的关联
-//        try {
-//            int effectedNum = productDao.updateProductCategoryToNull(productCategoryId);
-//            if (effectedNum < 0) {
-//                throw new ProductCategoryOperationException("商品类别更新失败");
-//            }
-//        } catch (Exception e) {
-//            throw new ProductCategoryOperationException("deleteProductCategory error----:" + e.getMessage());
-//        }
+        try {
+            int effectedNum = productDao.updateProductCategoryToNull(productCategoryId);
+            if (effectedNum < 0) {
+                throw new ProductCategoryOperationException("商品类别更新失败");
+            }
+        } catch (Exception e) {
+            throw new ProductCategoryOperationException("deleteProductCategory error----:" + e.getMessage());
+        }
 
         //删除该productCategory
         try {
