@@ -7,17 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b3c6b12-c7b4-4fab-af12-fbd3130bd4b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/intercepter/BaseIntercepter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/intercepter/frontend/shopAdminIntercepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dao/LocalAuthDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/LocalAuthExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/enmus/LocalAuthStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/LocalAuthOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/LocalAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/LocalAuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/local/LocalAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/local/LocalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/LocalAuthDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/entity/HeadLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/entity/HeadLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ShopOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ShopOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/intercepter/frontend/shopAdminIntercepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/interceptors/frontend/ShopAdminInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shoplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shoplist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shopdetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shopdetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shoplist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shoplist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/html/frontend/shoplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/html/frontend/shoplist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gdufo2o/resources/js/frontend/shopdetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/resources/js/frontend/shopdetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gdufo2o/resources/js/frontend/shoplist.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/resources/js/frontend/shoplist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/gdufo2o.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/entity/HeadLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/entity/HeadLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/exceptions/ProductOperationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/exceptions/ProductOperationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/exceptions/ShopOperationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wcp/gdufo2o/exceptions/ShopOperationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/META-INF/gdufo2o.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/entity/HeadLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/entity/HeadLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/exceptions/ProductOperationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/exceptions/ProductOperationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/exceptions/ShopOperationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/com/wcp/gdufo2o/exceptions/ShopOperationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/spring/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/gdufo2o/WEB-INF/classes/spring/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/gdufo2o.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,91 +58,115 @@
     <favorites_list name="gdufo2o" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shopdetail.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/local/LocalAuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+            <state relative-caret-position="-247">
+              <caret line="142" selection-start-line="142" selection-end-line="142" />
               <folding>
-                <element signature="e#753#1873#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#5424#5439#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback .xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1340" />
+            <state relative-caret-position="-665" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/HttpServletRequestUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="-295">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/entity/HeadLine.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductManagementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="179">
+              <caret line="189" selection-start-line="189" selection-end-line="189" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2128#2143#0" expanded="true" />
+                <element signature="e#7395#7410#0" expanded="true" />
+                <element signature="e#7910#7923#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+        <entry file="file://$PROJECT_DIR$/target/gdufo2o/resources/js/frontend/productdetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+            <state relative-caret-position="380">
+              <caret line="45" column="15" lean-forward="true" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/intercepter/BaseIntercepter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/frontend/ProductDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#966#981#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="166" selection-start-line="166" selection-end-line="166" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getProductList#0;class#ProductServiceImpl#0" />
+                <element signature="method#modifyProduct#0;class#ProductServiceImpl#0" />
+                <element signature="e#3536#3537#0" expanded="true" />
+                <element signature="e#3597#3598#0" expanded="true" />
+                <element signature="e#5913#5925#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/intercepter/frontend/shopAdminIntercepter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/ImageUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1398" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/entity/LocalAuth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="-849">
+              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -143,7 +191,6 @@
       <find>m</find>
       <find>gduf0o2o</find>
       <find>imooc.gdufo2o</find>
-      <find>imooc.o2o</find>
       <find>wcp,g</find>
       <find>produtc_category_id</find>
       <find>imooc.myo2o</find>
@@ -152,8 +199,17 @@
       <find>searchDivUrl</find>
       <find>shoplist</find>
       <find>shopdetail</find>
-      <find>o2o</find>
       <find>handler</find>
+      <find>imooc.o2o</find>
+      <find>com.gdufo2o.entity.LocalAuth</find>
+      <find>com.gdufo2o</find>
+      <find>o2o</find>
+      <find>l.username</find>
+      <find>username</find>
+      <find>addSh</find>
+      <find>usertype</find>
+      <find>listproductdetailpageinfo</find>
+      <find>#area</find>
     </findStrings>
     <replaceStrings>
       <replace>/gdufo2o/</replace>
@@ -161,6 +217,7 @@
       <replace>wcp.g</replace>
       <replace>wcp.gdufo2o</replace>
       <replace>gdufo2o</replace>
+      <replace>user_name</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -169,28 +226,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/ProductCategoryDao.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ProductCategoryDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ProductCategroyServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/enmus/ProductCategoryStateEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ProductCategoryExecution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductCategoryController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/Result.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/service/ProductCategoryServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductCategoryManagementController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/productcategorymanagement.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dao/ProductImgDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/enmus/ProductStateEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/ProductExecution.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/ProductImgDao.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ProductDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductOperationException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/ImageUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ProductServiceImpl.java" />
@@ -218,8 +256,27 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shoplist.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shoplist.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shopdetail.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/intercepter/frontend/shopAdminIntercepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/intercepter/frontend/ShopAdminIntercepter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/interceptors/frontend/ShopAdminInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dao/LocalAuthDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/LocalAuthOperationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ShopOperationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/enmus/LocalAuthStateEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/LocalAuthExecution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductOperationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/LocalAuthService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/MD5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/LocalAuthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/local/LocalController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/local/LocalAuthController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/LocalAuthDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/accountbind.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js" />
       </list>
     </option>
   </component>
@@ -242,7 +299,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,33 +340,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="enmus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,17 +358,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="intercepter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="intercepter" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +376,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
@@ -367,6 +386,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
@@ -388,20 +408,145 @@
               <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gdufo2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="gdufo2o" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/enmus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/local" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -410,18 +555,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wcp.gdufo2o.service.impl" />
-      <recent name="com.wcp.gdufo2o.service" />
-      <recent name="com.wcp.gdufo2o.dao" />
-      <recent name="com.wcp.gdufo2o.web.shopadmin" />
-      <recent name="com.wcp.gdufo2o.exceptions" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WuChuPeng\data_for_wuchupeng\git_project_for_java\gdufo2o\src\main\webapp\WEB-INF\local" />
+      <recent name="C:\Users\WuChuPeng\data_for_wuchupeng\git_project_for_java\gdufo2o\src\main\java\com\wcp\gdufo2o\web\local" />
+      <recent name="C:\Users\WuChuPeng\data_for_wuchupeng\git_project_for_java\gdufo2o\src\main\resources\mapper" />
       <recent name="C:\Users\WuChuPeng\data_for_wuchupeng\git_project_for_java\gdufo2o\src\main\webapp\WEB-INF\html\frontend" />
       <recent name="C:\Users\WuChuPeng\data_for_wuchupeng\git_project_for_java\gdufo2o\src\main\java\com\wcp\gdufo2o\web" />
-      <recent name="C:\Users\WuChuPeng\data_for_wuchupeng\git_project_for_java\gdufo2o\src\main\resources\mapper" />
-      <recent name="C:\Users\WuChuPeng\data_for_wuchupeng\git_project_for_java\gdufo2o\src\main\webapp\resources\js\shop" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wcp.gdufo2o.util" />
+      <recent name="com.wcp.gdufo2o.enmus" />
+      <recent name="com.wcp.gdufo2o.dto" />
+      <recent name="com.wcp.gdufo2o.exceptions" />
+      <recent name="com.wcp.gdufo2o.service.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\WuChuPeng\data_for_wuchupeng\git_project_for_java\gdufo2o\src\main\webapp\WEB-INF\html" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -437,6 +586,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.gdufo2o">
+    <configuration name="MD5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wcp.gdufo2o.util.MD5" />
+      <module name="gdufo2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wcp.gdufo2o.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeadLineDaoTest.testQueryHeadLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gdufo2o" />
       <extension name="coverage">
@@ -480,22 +642,6 @@
       <option name="PACKAGE_NAME" value="com.wcp.gdufo2o.dao" />
       <option name="MAIN_CLASS_NAME" value="com.wcp.gdufo2o.dao.ProductDaoTest" />
       <option name="METHOD_NAME" value="testQueryProductList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductDaoTest.testUpdateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gdufo2o" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wcp.gdufo2o.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wcp.gdufo2o.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.wcp.gdufo2o.dao.ProductDaoTest" />
-      <option name="METHOD_NAME" value="testUpdateProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -602,7 +748,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ProductDaoTest.testUpdateProduct" />
+      <item itemvalue="Application.MD5" />
       <item itemvalue="JUnit.ProductDaoTest.testUpdateProductCategoryToNull" />
       <item itemvalue="JUnit.ProductDaoTest.testQueryProductById" />
       <item itemvalue="JUnit.ProductDaoTest.testQueryProductList" />
@@ -611,11 +757,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MD5" />
         <item itemvalue="JUnit.HeadLineDaoTest.testQueryHeadLine" />
         <item itemvalue="JUnit.ProductDaoTest.testQueryProductList" />
         <item itemvalue="JUnit.ProductDaoTest.testQueryProductById" />
         <item itemvalue="JUnit.ProductDaoTest.testUpdateProductCategoryToNull" />
-        <item itemvalue="JUnit.ProductDaoTest.testUpdateProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -629,7 +775,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578474211570</updated>
-      <workItem from="1578474213882" duration="64171000" />
+      <workItem from="1578474213882" duration="72646000" />
+      <workItem from="1578627462695" duration="7000" />
+      <workItem from="1578627510988" duration="6522000" />
     </task>
     <servers />
   </component>
@@ -666,7 +814,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64171000" />
+    <option name="totallyTimeSpent" value="79175000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,7 +827,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -687,24 +834,24 @@
       <window_info id="Favorites" order="3" sideWeight="0.10502958" side_tool="true" weight="0.14075068" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.8949704" visible="true" weight="0.29021448" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.8949704" visible="true" weight="0.29825738" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.09348442" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.14879356" side_tool="true" visible="true" weight="0.20254958" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.1388102" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.04249292" />
-      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.1713881" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.8103217" weight="0.5283286" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.8512064" visible="true" weight="0.20254958" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="15" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.13172804" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -722,7 +869,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.10502958" side_tool="true" weight="0.14075068" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.8949704" visible="true" weight="0.3766756" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.8949704" visible="true" weight="0.29021448" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -735,8 +882,8 @@
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.39235127" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.4164306" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.04249292" />
+      <window_info active="true" anchor="bottom" id="Debug" order="12" visible="true" weight="0.11048159" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" weight="0.3286119" />
@@ -781,8 +928,25 @@
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/local/LocalAuthController.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/LocalAuthServiceImpl.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="product.productImgList" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -794,215 +958,126 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanagement.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/interceptors/frontend/ShopAdminInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="19" column="74" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productmanagement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="46" column="41" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productoperation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="169" column="41" selection-start-line="169" selection-start-column="38" selection-end-line="169" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="26" column="89" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/frontend/ProductDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="152">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#listProductDetailPageInfo#0;class#ProductDetailController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/frontend/MainPageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dao/LocalAuthDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="78">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1192#1206#0" expanded="true" />
-            <element signature="e#1261#1271#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wcp/gdufo2o/dao/ShopDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/LocalAuthOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="79" column="38" lean-forward="true" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+        <state relative-caret-position="57">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductCategoryOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="57">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ShopOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/dto/LocalAuthExecution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ShopService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
-          <folding>
-            <element signature="n#select#2;n#mapper#0;n#!!top" />
-            <element signature="n#insert#0;n#mapper#0;n#!!top" />
-            <element signature="n#update#0;n#mapper#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/frontend/ShopDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="41" column="81" lean-forward="true" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#listShopDetailPageInfo#0;class#ShopDetailController#0" />
-            <element signature="method#listProductsByShop#0;class#ShopDetailController#0" />
-            <element signature="method#compactProductCondition4Serach#0;class#ShopDetailController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/frontend/ShopListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#listShopsPageInfo#0;class#ShopListController#0" />
-            <element signature="e#1389#1404#0" expanded="true" />
-            <element signature="e#3256#3271#0" expanded="true" />
-            <element signature="method#compactShopCondition4Search#0;class#ShopListController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/frontend/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shoplist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/frontend/FrontendController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/exceptions/ProductOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/local/accountbind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/local/changepsw.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/local/changepsw.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/local/logout.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/enmus/LocalAuthStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/LocalAuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/productdetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shopdetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/reflect/InvocationTargetException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="e#2547#2548#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="180" selection-start-line="180" selection-end-line="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/impl/Jdk14Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="221" selection-start-line="221" selection-end-line="221" />
-          <folding>
-            <element signature="e#7022#7023#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-          <folding>
-            <element signature="e#16959#16960#0" expanded="true" />
-            <element signature="e#17020#17021#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
         </state>
       </provider>
     </entry>
@@ -1013,6 +1088,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1020,153 +1102,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#1649#1650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/method/HandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="e#4468#4469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar!/org/springframework/web/servlet/handler/AbstractHandlerMethodExceptionResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar!/org/springframework/web/servlet/handler/AbstractHandlerExceptionResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="398" selection-start-line="398" selection-end-line="398" />
+        <state relative-caret-position="130">
+          <caret line="459" selection-start-line="459" selection-end-line="459" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductManagementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2128#2143#0" expanded="true" />
-            <element signature="e#7395#7410#0" expanded="true" />
-            <element signature="e#7910#7923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getProductList#0;class#ProductServiceImpl#0" />
-            <element signature="method#modifyProduct#0;class#ProductServiceImpl#0" />
-            <element signature="e#5913#5925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/ImageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/frontend/productdetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shoplist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1406">
-          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shopdetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
-          <folding>
-            <element signature="e#753#1873#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback .xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/HttpServletRequestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/entity/LocalAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.wcp.gdufo2o.entity.Area">
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/WuChuPeng/data_for_wuchupeng/git_project_for_java/gdufo2o/src/main/webapp/WEB-INF/html/local">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.wcp.gdufo2o.entity.Area</OriginalElement>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local</OriginalElement>
           <nodes>
-            <node x="" y="">com.wcp.gdufo2o.entity.Area</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/accountbind.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/changepsw.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/login.html</node>
+            <node x="" y="">../Kaptcha</node>
+            <node x="" y="">../resources/js/common/common.js</node>
+            <node x="" y="">../resources/js/local/accountbind.js</node>
+            <node x="" y="">../resources/js/local/changepsw.js</node>
+            <node x="" y="">../resources/js/local/login.js</node>
+            <node x="" y="">//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css</node>
+            <node x="" y="">//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css</node>
+            <node x="" y="">//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js</node>
+            <node x="" y="">//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js</node>
+            <node x="" y="">//g.alicdn.com/sj/lib/zepto/zepto.min.js</node>
+            <node x="" y="">/favicon.ico</node>
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="40.5" y="14.5" />
+          <settings layout="Hierarchic Group" zoom="0.8512960436562074" x="315.0" y="357.0" />
           <SelectedNodes />
-          <Categories />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
           <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+          <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1181,8 +1153,37 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.9" x="115.49999999999994" y="131.1111111111111" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="54.0" />
           <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.wcp.gdufo2o.entity.Area">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.wcp.gdufo2o.entity.Area</OriginalElement>
+          <nodes>
+            <node x="949.4583333333335" y="409.5">com.wcp.gdufo2o.entity.ProductCategory</node>
+            <node x="732.9583333333335" y="707.0">com.wcp.gdufo2o.entity.Product</node>
+            <node x="450.72222222222234" y="0.0">com.wcp.gdufo2o.entity.PersonInfo</node>
+            <node x="-74.0" y="408.0000000000001">com.wcp.gdufo2o.entity.HeadLine</node>
+            <node x="160.0000000000001" y="11.5">com.wcp.gdufo2o.entity.ShopCategory</node>
+            <node x="778.4583333333335" y="398.0">com.wcp.gdufo2o.entity.ProductImg</node>
+            <node x="591.4583333333335" y="398.0">com.wcp.gdufo2o.entity.LocalAuth</node>
+            <node x="0.0" y="46.0">com.wcp.gdufo2o.entity.Area</node>
+            <node x="152.3842592592594" y="306.0">com.wcp.gdufo2o.entity.Shop</node>
+            <node x="404.4583333333335" y="421.0">com.wcp.gdufo2o.entity.WechatAuth</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.379746835443038" x="548.0" y="518.0" />
+          <SelectedNodes>
+            <node>com.wcp.gdufo2o.entity.HeadLine</node>
+          </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
           </Categories>
@@ -1191,49 +1192,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/entity/HeadLine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/LocalAuthServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1398" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/intercepter/shopadmin/frontend/shopadmin/shopadminItercepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/intercepter/BaseIntercepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/intercepter/frontend/shopAdminIntercepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="798">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/MD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LocalAuthDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/entity/LocalAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanagement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/gdufo2o/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shopdetail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/changepsw.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/accountbind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ShopServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ShopManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="196" column="34" lean-forward="true" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
+          <folding>
+            <element signature="method#getShopById#0;class#ShopManagementController#0" />
+            <element signature="method#getShopInitInfo#0;class#ShopManagementController#0" />
+            <element signature="method#modifyShop#0;class#ShopManagementController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/local/LocalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/gdufo2o/resources/js/local/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/gdufo2o/resources/js/frontend/productdetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="45" column="15" lean-forward="true" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-849">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/frontend/ProductDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#966#981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopoperation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/local/LocalAuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5424#5439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopoperation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-295">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/web/shopadmin/ProductManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2128#2143#0" expanded="true" />
+            <element signature="e#7395#7410#0" expanded="true" />
+            <element signature="e#7910#7923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getProductList#0;class#ProductServiceImpl#0" />
+            <element signature="method#modifyProduct#0;class#ProductServiceImpl#0" />
+            <element signature="e#3536#3537#0" expanded="true" />
+            <element signature="e#3597#3598#0" expanded="true" />
+            <element signature="e#5913#5925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wcp/gdufo2o/util/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>

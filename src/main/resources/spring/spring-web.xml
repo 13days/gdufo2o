@@ -63,16 +63,10 @@
 
     <!--4：扫描web相关的bean-->
     <context:component-scan base-package="com.wcp.gdufo2o.web"/>
-
+    <context:component-scan base-package="com.wcp.gdufo2o.interceptors.shopadmin"/>
 
     <!-- 登录验证拦截器 -->
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/shopadmin/**"/>
-            <!-- 定义统一拦截器 -->
-            <bean class="com.wcp.gdufo2o.intercepter.shopadmin."></bean>
-        </mvc:interceptor>
-    </mvc:interceptors>
+
 
 
 </beans>

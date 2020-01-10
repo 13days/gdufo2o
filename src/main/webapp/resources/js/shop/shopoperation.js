@@ -76,6 +76,9 @@ $(function () {
                 //将信息放进前台html中
                 $('#shop-category').html(tempHtml);
                 $('#area').html(tempAreaHtml);
+
+                $('#shop-category').attr("disabled","");
+                $('#area').attr("disabled","");
             }
         });
     }

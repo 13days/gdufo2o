@@ -89,8 +89,8 @@ public class ShopServiceImpl implements ShopService{
 	        }
 
 	        try {
-	            //给店铺信息赋初始值
-	            shop.setEnableStatus(0);
+	            // TODO 店铺添加,直接授权,给店铺信息赋初始值
+	            shop.setEnableStatus(1);
 	            shop.setCreateTime(new Date());
 	            shop.setLastEditTime(new Date());
 	            //添加店铺信息

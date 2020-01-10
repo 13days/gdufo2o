@@ -3,7 +3,7 @@ package com.wcp.gdufo2o.entity;
 import java.util.Date;
 
 //头条
-public class HeadLine extends Area {
+public class HeadLine {
     //ID
     private Long lineId;
     //名称
